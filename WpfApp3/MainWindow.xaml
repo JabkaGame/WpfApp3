@@ -37,16 +37,63 @@
                 <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Background="AliceBlue"/>
                 <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Background="AliceBlue"/>
                 <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Background="MediumAquamarine"/>
-                <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1" Background="MediumAquamarine"/>
-                <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2" Background="MediumAquamarine"/>
-                <Button Name="btnMin" Content="-" Grid.Row="0" Grid.Column="3" Background="MediumAquamarine"/>
-                <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Background="MediumAquamarine"/>
-                <Button Name="btnRes" Content="=" Grid.Row="3" Grid.RowSpan="4" Grid.Column="4" Background="MediumAquamarine"/>
-                <Button Name="btnClea" Content="C" Grid.Row="0" Grid.Column="0" Background="MediumAquamarine"/>
-                <Button Name="btnDec" Content="." Grid.Row="4" Grid.Column="2" Background="MediumAquamarine"/>
-                 
-                
-                 
+                <Button Name="btnDel" Content="/" Grid.Row="0" Grid.Column="1" Background="MediumAquamarine">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Деление
+                        </ToolTip>
+                    </Button.ToolTip>
+
+                </Button>
+                <Button Name="btnMul" Content="*" Grid.Row="0" Grid.Column="2" Background="MediumAquamarine">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Умножает
+                        </ToolTip>
+                    </Button.ToolTip>
+
+                </Button>
+                <Button Name="btnMin" Content="-" Grid.Row="0" Grid.Column="3" Background="MediumAquamarine">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Минусует
+                        </ToolTip>
+                    </Button.ToolTip>
+
+                </Button>
+                <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Background="MediumAquamarine">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Плюсует
+                    </ToolTip>
+                </Button.ToolTip>
+
+                </Button>
+                <Button Name="btnRes" Content="=" Grid.Row="3" Grid.RowSpan="4" Grid.Column="4" Background="MediumAquamarine">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Вывод 
+                    </ToolTip>
+                </Button.ToolTip>
+
+                </Button>
+                <Button Name="btnClea" Content="C" Grid.Row="0" Grid.Column="0" Background="MediumAquamarine">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Стирает всё
+                        </ToolTip>
+                    </Button.ToolTip>
+
+                </Button>
+                <Button Name="btnDec" Content="." Grid.Row="4" Grid.Column="2" Background="MediumAquamarine">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Точка
+                        </ToolTip>
+                    </Button.ToolTip>
+                    
+                </Button>
+
 
 
 
